@@ -1,0 +1,78 @@
+/* common */
+body {
+  margin: 0;
+  font-family: "Avenir Next";
+}
+li {
+  list-style-type: none;
+}
+/* header */
+.header {
+  height: 90px;
+  background: skyblue;
+  display: flex;
+  color: white;
+}
+.header-logo {
+  padding: auto;
+  margin-left: 23px;
+  margin-right: 23px;
+}
+.header-items {
+  display: flex;
+  margin: 0;
+}
+.header li {
+  padding: 33px 20px;
+}
+/* main-content */
+.main-content {
+  margin: 16px;
+  padding: 8px;
+}
+.main-content h1 {
+  font-size: 110px;
+}
+span {
+  color: red;
+}
+.main-content p {
+  font-size: 36px;
+}
+.contents > p {
+  margin-left: 16px;
+  border-bottom: 1px solid silver;
+}
+.content-lists {
+  justify-content: space-around;
+  display: flex;
+}
+.content-list {
+  margin: 0 16px;
+}
+.answer {
+  margin: 16px;
+  padding: 8px;
+}
+.answer h2 {
+  border-bottom: 1px solid silver;
+}
+.answer p {
+  margin: 0;
+}
+/* footer */
+footer {
+  height: 96px;
+  color: white;
+  background: rgb(3, 3, 88);
+  justify-content: space-between;
+  display: flex;
+}
+footer h3 {
+  font-size: 24px;
+  margin: 0;
+  padding: 16px;
+}
+.small-list {
+  margin: 16px;
+}
